@@ -1,0 +1,3 @@
+no, brief description, solution
+24, swap adjacent nodes, use a dummyNode and assign them
+26, remove dup from sorted array to detect nums[i] != nums[i-1]
