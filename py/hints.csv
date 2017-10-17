@@ -1,11 +1,18 @@
 no,brief description,solution,time,space
 *10,regular expression matching,
+15,3 sum,n^2 get the left number and use bi-directional search to find the result
 17,letter combination of a phone number,bfs每一轮清空deque
+23,merge K sorted lists,use a heap to store all the nodes
 24,swap adjacent nodes,use a dummyNode and assign them
 26,remove dup from sorted array ,detect nums[i] != nums[i-1] and swap it with a starting pointer
 43,multiply strings,use a 2D matrix and store only results of (one digit * one digit)
-75,sort colors,count the number and insert them or run two pointers
+75,sort colors,count the number and insert them or run two pointers(na switch between two's pointer needs p-=1」)
 91,decode ways,dp and 0 as a special case
+157,read N characters given read4, while n!= 0: n-=1 res += 1 buf[res] = buf4[i]
+158,read N characters given read4 with multiple calls,add a queue to store previous read4 results
+161,one distance,run each char in s and t and compare the rest substring *return if lengths differ 1
+253,meeting room II,keep the heap to store the first min_level numbers in the front
+277,find the celebrity,run a pass to find a candidate and another pass to validate the candidate
 278,first bad version,binary search combined with n[i] != n[i+1]
 283,move zeros,like a color sort
 311,sparce matrix multiplication,use a dict to store non-zero values in B and (i,j) as key to boost performance
